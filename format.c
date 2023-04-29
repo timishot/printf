@@ -18,7 +18,7 @@ int _printf(const char *format, ...){
 			if (*format == '\0') break;//if the next element is a is null terminator break
 			if(*format =='%'){
 				_putchar('%');
-				count++;
+				count++;//increase count
 			}else if(*format == 'c'){
 				char c = va_arg(args, int);
 				_putchar(c);
