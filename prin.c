@@ -1,14 +1,11 @@
-#include <stdio.h>
-#include "printf.h"
+#include "main.h"
 
-int main(void) {
-    char *s = "world";
-    int n = 123;
-    double d = 3.14159;
+int main(void)
+{
+    int r = 18;
 
-    _printf("Hello, %s!\n", s);
-    _printf("The number is: %d\n", n);
-    _printf("The value of pi is: %f\n", d);
+    _printf("Hello, %d!\n", r);
 
     return 0;
 }
+

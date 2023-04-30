@@ -28,7 +28,7 @@ int _printf(const char *format, ...){
 					_putchar(*s++);
 					count++;
 				}
-			}else if(*format == 'd' || *format == 'i'){
+			}else if(*format == 'd' ||  *format == 'i'){
 				char d = va_arg(args, int);
 				_putchar(d);
 				count++;
